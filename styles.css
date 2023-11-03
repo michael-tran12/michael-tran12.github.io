@@ -1,11 +1,11 @@
 * {
-    background-color: var(--blue);
+    background-color: var(--beige);
     color: var(--white);
 }
 
 :root {
     --buttonblue: #123445;
-    --blue: #081726;
+    --beige: #c5895b;
     --white: #F8F6F0;
 }
 
