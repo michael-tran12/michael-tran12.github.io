@@ -1,17 +1,17 @@
 * {
-    background-color: var(--beige);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 :root {
     --buttonblue: #123445;
-    --beige: #c5895b;
+    --black: #000000;
     --white: #F8F6F0;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: calc(4vw + 12px);
+    font-size: calc(4vw + 10px);
 }
 
 .cursor {
@@ -23,11 +23,11 @@ h1 {
 }
 
 #subtitle {
-    font-family: Garamond, 'Times New Roman', Times, serif;
     font-size: calc(2vw + 8px);
 }
 
 p {
+    text-align: center;
     font-size: calc(.5vw + 10px);
 }
 
@@ -60,10 +60,10 @@ p {
 #main-img {
     position: relative;
     margin: 0 auto;
-    width: 70%;
-    max-width: 400px;
-    min-width: 200px;
-    border: 3px var(--white) solid;
+    width: 50%;
+    max-width: 200px;
+    min-width: 100px;
+    border: 3px var(--black) solid;
 }
 
 #projects {
@@ -166,6 +166,6 @@ a {
     }
     100% {
         background-color: rgba(255,255,255,0.8);
-        color: white
+        color: black
     }
 }
